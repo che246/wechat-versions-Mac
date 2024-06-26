@@ -14,5 +14,5 @@ jobs:
         env: 
           GHTOKEN: ${{ secrets.GHTOKEN }}
           BOTTOKEN: ${{ secrets.BOTTOKEN }}
-          CHATIDS: ${{ secrets.CHATIDS }}
+          CHATIDS:  ${{ secrets.CHATIDS }}
         run: bash -x ./scripts/notify.sh
